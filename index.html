@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid">
         <!--====================================================nav bar=========================================================-->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top bg-light justify-content-center">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><i class="fa-solid fa-book-open"></i></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,12 +22,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i></a><!--Home button-->
+                    <a class="navbar-brand" aria-current="page" href="index.html">Home</a><!--Home button-->
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-table-list"></i>
-                    </a>
+                    <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Productivity</a></li>
                       <li><a class="dropdown-item" href="#">Fiction</a></li>
@@ -35,7 +33,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="navbar-brand" href="#">Featured</a>
+                    <a class="navbar-brand" href="#">Blog</a>
                   </li>
                   <li class="nav-item">
                     <a class="navbar-brand" href="#">About</a>
@@ -43,7 +41,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-primary" type="submit">Search</button>
+                  <button class="btn btn-outline" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
               </div>
             </div>
@@ -53,48 +51,46 @@
             <img class="img-fluid opacity-75" src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/H22QrVJSiphb57vz/boys-watching-tv-lying-on-the-floor_h0lpjhsgl_thumbnail-1080_01.png" alt="kids watching tv">
           </div>
           <div class="row p-2 bg-primary">
-            <div class="col-12-md">
-              <h1 class="display-2 text-center p-2">Synops, A very exciting website!</h1>
-              <p class="text-center p-2">We summarize various shows be it about economics, fiction, productivity and anything under the sun, yes even talk shows!</p>
+            <div class="col-sm-12">
+              <h1 class="display-1 text-center p-3 fw-bold">Synops</h1>
+              <h1 class="display-3 text-center p-2">A comprehensive guide on shows worth watching</h1>
+              <p class="text-center fs-4 p-2">We aim to deliver top-notch synopsis and reviews, just for you!</p>
             </div>
           </div>
-          <hr>
+          <hr class="col-4 mx-auto ">
           <!--================================================content section======================================================-->
-          <div class="row p2 bg-success">
-            <div class="col-12-md">
-              <h1 class="display-4 text-center p-2">Our curated summaries can be enjoyed in three distinct formats.</h1>
+          <div class="row p-2 bg-success">
+            <div class="col-sm-12 p-2">
+              <h1 class="display-4 text-center p-2">Our summaries can be enjoyed in two distinct formats.</h1>
             </div>
           </div>
-          <hr>
-          <div class="row d-flex justify-content-center">
-            <div class="col">
-              <div class="card mx-auto" style="width: auto;">
-                <img src="https://ghost.playplay.com/content/images/2020/10/podcast-vraiment-ecoute.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Podcasts</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+          <hr class="col-4 mx-auto">
+          <!--=================================================type of synopsis=====================================================-->
+          <div class="row bg-info">
+            <div class="col-sm-5 p-5">
+              <img class="float-start img-fluid d-none d-sm-block" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn6.dissolve.com%2Fp%2FD943_62_294%2FD943_62_294_1200.jpg&f=1&nofb=1&ipt=d283d3713ad9ad6cde4c1e2ef66b2a26ef4c23afee35eeaa60b64cb3a3de7e73&ipo=images" alt="...">
             </div>
-            <div class="col">
-              <div class="card mx-auto" style="width: auto;">
-                <img src="https://ghost.playplay.com/content/images/2020/10/podcast-vraiment-ecoute.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Infographics</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+            <div class="col-sm-7 p-5">
+              <p class="fs-4">What is Lorem Ipsum? Simply put, loremipsum is dummy text that occupies the space where the real content should be. If you are designing an online business such as a blog and you do not have content already, you use a lorem ipsum generator to create placeholder or dummy text to show you how the business will look once you add the real content.</p>
             </div>
-            <div class="col">
-              <div class="card mx-auto" style="width: auto;">
-                <img src="https://ghost.playplay.com/content/images/2020/10/podcast-vraiment-ecoute.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">5 page summary</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+          </div>
+          <div class="row bg-success">
+            <div class="col-sm-5 p-5">
+              <img class="float-start img-fluid d-none d-sm-block" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn6.dissolve.com%2Fp%2FD943_62_294%2FD943_62_294_1200.jpg&f=1&nofb=1&ipt=d283d3713ad9ad6cde4c1e2ef66b2a26ef4c23afee35eeaa60b64cb3a3de7e73&ipo=images" alt="...">
+            </div>
+            <div class="col-sm-7 p-5">
+              <p class="fs-4">What is Lorem Ipsum? Simply put, loremipsum is dummy text that occupies the space where the real content should be. If you are designing an online business such as a blog and you do not have content already, you use a lorem ipsum generator to create placeholder or dummy text to show you how the business will look once you add the real content.</p>
+            </div>
+          </div>
+          <!--==============================================end of type of synopsis=================================================-->
+          <div class="row bg-danger">
+            <div class="col-sm-12 p-5">
+              <p class="text-center">Enter your email below to receive our hottest content! <small>Don't worry, we won't send you spam.</small></p>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="januspaul@synops.com">
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">Subscribe</button>
               </div>
             </div>
           </div>
